@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ExampleLeafletModule } from './example-leaflet/example-leaflet.module';
+import { TutorialModule } from './example-leaflet/tutorial.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import { ExampleLeafletModule } from './example-leaflet/example-leaflet.module';
   ],
   imports: [
     BrowserModule,
-    ExampleLeafletModule
+    TutorialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

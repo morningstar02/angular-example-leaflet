@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ExampleLeafletComponent } from './example-leaflet.component';
+import { TutorialComponent } from './tutorial.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: ExampleLeafletComponent,
+    component: TutorialComponent,
   },
 ];
 
@@ -14,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ExampleLeafletRoutingModule { }
+export class TutorialRoutingModule { }

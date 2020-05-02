@@ -1,13 +1,13 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
-import { ExampleLeafletModule } from './example-leaflet/example-leaflet.module';
+import { TutorialModule } from './example-leaflet/tutorial.module';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
-        ExampleLeafletModule,
+        TutorialModule,
       ],
       declarations: [
         AppComponent
@@ -19,12 +19,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
-  });
-
-  it(`should have as title 'angular-starter'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-starter');
   });
 
 });
